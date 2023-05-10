@@ -1,21 +1,19 @@
 header {
-    background-color: rgb(62, 62, 62);
+  background-color: rgb(62, 62, 62);
 }
 
 body {
-    background-image: url('image/fondo.png');
-    background-color: black;
-    background-size: cover;
-    
+  background-image: url("image/fondo3.jpeg");
+  background-color: black;
+  background-size: cover;
 }
 
-.lead{
-    
-    color: rgb(226, 226, 0);
-    text-align: center;
-    margin: 200px auto;
-    max-width: 600px;
-    margin-top: -10px;
-    
-    
+.lead {
+  color: rgb(186, 186, 0);
+  text-align: center;
+  margin: 200px auto;
+  max-width: 600px;
+  margin-top: -10px;
+  font: 150% sans-serif;
+  margin-bottom: -20px;
 }
