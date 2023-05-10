@@ -22,12 +22,10 @@ body {
 }
 
 .my-4 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .pr-lg-5 {
-    padding-right: 3rem;
-  }
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 
- 
+.pr-lg-5 {
+  padding-right: 3rem;
+}
