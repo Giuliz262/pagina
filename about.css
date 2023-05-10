@@ -1,0 +1,31 @@
+header {
+  background-color: rgb(62, 62, 62);
+}
+body {
+  background-image: url("image/fondo3.jpeg");
+  background-size: cover;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.tex1 {
+  text-align: center;
+  color: rgb(255, 255, 16);
+  margin: 2px auto;
+  max-width: 600px;
+  font: sans-serif;
+  font-size: 120%;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.pr-lg-5 {
+  padding-right: 3rem;
+}
