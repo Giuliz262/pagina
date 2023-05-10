@@ -13,9 +13,19 @@
     />
     <link rel="stylesheet" href="about.css" />
   </head>
+  <style>
+    @media only screen and (max-width: 600px) {
+      .nav-pills {
+        flex-direction: column;
+      }
+      .nav-item {
+        margin-bottom: 10px;
+      }
+    }
+  </style>
   <body>
     <div>
-      <header class="d-flex justify-content-between py-3 rounded text-light">|
+      <header class="d-flex justify-content-between py-3 rounded text-light">
         <nav class="nav nav-masthead justify-content-center">
           <h3 class="mb-0">MiPortfolio</h3>
         </nav>
@@ -40,30 +50,31 @@
       </header>
     </div>
 
-    <div class="container text-center">
-      <h1 style="color: rgb(255, 255, 16); font: sans-serif">
-        <b> Sobre mí </b>
-      </h1>
-      <div class="my-4">
-        <img
-          src="./image/avatar.png"
-          alt=""
-          class="img-fluid mx-auto"
-          style="max-width: 50%; height: auto"
-        />
-      </div>
-      <p class="tex1">
-        <b>
-          Me llamo Giuliana Ayelen Cubilla, soy una desarrolladora full stack.
-          Tengo 19 años y soy de Formosa, Argentina. Soy estudiante del IPF
-          (Instituto Politécnico Formosa) y me recibí como Técnica en
-          Programación en la Escuela Provincial de Educación Técnica N°7.
-        </b>
-      </p>
-    </div>
-
-    <br /><br />
     <main>
+      <div class="container text-center">
+        <h1 style="color: rgb(255, 255, 16); font: sans-serif">
+          <b> Sobre mí </b>
+        </h1>
+        <div class="my-4">
+          <img
+            src="./image/avatar.png"
+            alt=""
+            class="img-fluid mx-auto"
+            style="max-width: 50%; height: auto"
+          />
+        </div>
+        <p class="tex1">
+          <b>
+            Me llamo Giuliana Ayelen Cubilla, soy una desarrolladora full stack.
+            Tengo 19 años y soy de Formosa, Argentina. Soy estudiante del IPF
+            (Instituto Politécnico Formosa) y me recibí como Técnica en
+            Programación en la Escuela Provincial de Educación Técnica N°7.
+          </b>
+        </p>
+      </div>
+
+      <br /><br />
+
       <div class="container">
         <div class="row row-cols-1 row-cols-sm-2 g-3 mx-auto">
           <div class="col">
@@ -155,8 +166,8 @@
           >
         </h2>
 
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-          <div class="col">
+        <div class="row align-items-stretch g-4 py-5">
+          <div class="col-md-4">
             <div
               class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
               style="background-image: url('./image/upsti.png')"
@@ -169,8 +180,9 @@
                     ><font style="vertical-align: inherit; font-size: 60%">
                       <b>
                         Antes de Egresarme en la E.P.E.T N°7, fui pasante en la
-                        UPSTI, ahí adquirí conocimientos y experiencia más
-                        profecional con respecto al entorno laboral.</b
+                        UPSTI, ahí adquirí muchos conocimientos como también una
+                        experiencia más profecional con respecto al entorno
+                        laboral.</b
                       ></font
                     ></font
                   >
@@ -179,7 +191,7 @@
             </div>
           </div>
 
-          <div class="col">
+          <div class="col-md-4">
             <div
               class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
               style="background-image: url('./image/imgg.png')"
@@ -202,7 +214,7 @@
             </div>
           </div>
 
-          <div class="col">
+          <div class="col-md-4">
             <div
               class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
               style="background-image: url('./image/fondo3.webp')"
