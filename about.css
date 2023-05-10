@@ -14,9 +14,11 @@ body {
 
 .tex1 {
   text-align: center;
-  color: rgb(186, 186, 0);
+  color: rgb(255, 255, 16);
   margin: 2px auto;
   max-width: 600px;
+  font: sans-serif;
+  font-size: 120%;
 }
 
 .my-4 {

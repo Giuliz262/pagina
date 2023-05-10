@@ -1,0 +1,8 @@
+header {
+    background-color: rgb(62, 62, 62);
+  }
+
+  body {
+    background-image: url("image/fondo3.jpeg");
+    background-size: cover;
+  }
